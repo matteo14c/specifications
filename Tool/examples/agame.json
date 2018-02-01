@@ -1,0 +1,46 @@
+<script type="application/ld+json">
+{
+"@context": "http://schema.org/",
+"@type": "SoftwareApplication",
+"name": "A-GAME",
+"citation": "A GAlaxy suite for functional MEtagenomics, a web service incorporating state of the art tools and workflows for the analysis of eDNA sequence data",
+"url": "http://www.beaconlab.it/agame",
+"featureList": ["Genome Assembly", "Annotation", "Gene functional annotation", "Metagenomics"],
+"softwareVersion": "0.1",
+"applicationCategory": "Web application",
+"operatingSystem": "Any",
+"softwareHelp": "http://beaconlab.it/agame",
+"publisher":
+{
+   "@type": "Organization",
+   "name": "Beaconlab",
+   "url": "http://beaconlab.it",
+   "address" : "Via Celoria 26, 20133 Milano",
+   "memberof":
+	{
+   "@type": "Organization",
+   "name": "ELIXIR-IIB",
+   "url": "http://elixir-italy.org/"
+    },
+    "employee": [
+	{
+   	"@type": "Person",
+   	"name": "David Stephen Horner",
+   	"email": "david.horner@unimi.it"
+	},
+	{
+   	"@type": "Person",
+   	"name": "Matteo Chiara",
+   	"email": "matteo.chiara@unimi.it"
+	}],
+    "founder":
+	{
+   	"@type": "Person",
+   	"name": "Graziano Pesole",
+   	"email": "graziano.pesole@uniba.it"
+	}
+},
+"license": "https://github.com/mpg-age-bioinformatics/galaxy-admin/blob/master/LICENSE",
+"Keywords": [ "http://edamontology.org/topic_0085" , "http://edamontology.org/topic_0123"]
+}
+</script>
